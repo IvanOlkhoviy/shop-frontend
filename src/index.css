@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li:hover {
+  background-color: rgb(117, 117, 117, 0.5);
+  transition: 1s;
+}
+
+.nav li:not(:hover) {
+  transition: 1s;
+}

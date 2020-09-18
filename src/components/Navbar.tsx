@@ -2,19 +2,8 @@ import React from "react"
 
 
 export const Navbar:React.FC = () =>(
-//     <nav className="z-depth-0 ">
-//     <div className="nav-wrapper white">
-//       <a href="#" className="brand-logo black-text">Logo</a>
-//       <ul  className="right hide-on-med-and-down">
-//         <li><a href="/" className="black-text">Home</a></li>
-//         <li><a href="/" className="black-text">Shop All</a></li>
-//         <li><a href="/" className="black-text">About</a></li>
-//         <li><a href="/" className="black-text">Log In</a></li>
-//         <li><a href="/" className="grey-text"><i className="large material-icons">shopping_basket</i></a></li>
-//       </ul>
-//     </div>
-//   </nav>
-<div className="container">
+
+<div className="container mb-3 mt-2">
     <nav className="nav justify-content-end">  
         <a className="navbar-brand mr-auto" href="#">Logo</a>
         <li className="nav-item nav-link "><a href="/" >Home</a></li>
@@ -31,4 +20,5 @@ export const Navbar:React.FC = () =>(
         </li>
     </nav>
 </div>
+
 )

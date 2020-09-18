@@ -25,3 +25,66 @@ code {
 .nav li:not(:hover) {
   transition: 1s;
 }
+
+.main_gif{
+  height: 500px;
+}
+
+.overlay-div{
+  width: 100%;
+  margin-top: 20rem;
+  position:absolute;
+  text-align: center;
+}
+
+.overlay-div button{
+  width: 20%;
+  height: 25%;
+  background-color: rgb(117, 117, 117, 0.8);
+  color: white;
+  font-size: 130%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li:hover {
+  background-color: rgb(117, 117, 117, 0.5);
+  transition: 1s;
+}
+
+
+
+@media screen and (min-width:768px){
+  .carousel-control-prev span{
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .carousel-control-next span{
+    margin-left: 200px;
+  }
+}
+
+.carousel-indicators li{
+  background-color: black;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-item {
+    transition: -webkit-transform 0.6s ease-in-out !important;
+    transition: transform 0.6s ease-in-out !important;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out !important;
+  }
+}
+
+
+
+/* @media screen and (max-width: 320px){
+  img {
+    height: 100px;
+  }
+} */
